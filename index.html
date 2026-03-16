@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elevix Apps – Stop switching tabs. Ship from your board. | monday.com</title>
-  <meta name="description" content="The app that turns your monday.com boards into a single source of truth. Automate, integrate, and ship—without leaving the board.">
+  <title>Subitems Multiplier – Create subitems across many items in seconds | monday.com</title>
+  <meta name="description" content="Stop recreating the same subitems by hand. Clone subitems in bulk, save templates, preview before applying. Built for monday.com teams.">
   <meta name="theme-color" content="#181b34">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,12 +38,11 @@
 </head>
 <body class="antialiased text-dark bg-white">
   <a href="#main-content" class="skip-link">Skip to main content</a>
-  <!-- Header: fixed so white top bar is always visible when scrolling -->
   <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-border">
     <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between gap-4">
-      <a href="index.html" class="flex items-center gap-2 font-bold text-lg text-primary shrink-0 min-h-[44px] items-center" aria-label="Elevix Apps home">
-        <span class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white text-sm font-extrabold shadow-lg shadow-primary/30">E</span>
-        <span class="hidden sm:inline">Elevix Apps</span>
+      <a href="index.html" class="flex items-center gap-2 font-bold text-lg text-primary shrink-0 min-h-[44px] items-center" aria-label="Subitems Multiplier home">
+        <span class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white text-sm font-extrabold shadow-lg shadow-primary/30">S</span>
+        <span class="hidden sm:inline">Subitems Multiplier</span>
       </a>
       <div class="hidden md:flex items-center gap-8">
         <a href="index.html" class="text-primary font-semibold">Home</a>
@@ -53,7 +52,7 @@
         <a href="privacy.html" class="text-muted hover:text-primary transition font-medium">Privacy</a>
       </div>
       <div class="flex items-center gap-2">
-        <a href="https://monday.com/marketplace" class="hidden md:inline-flex items-center px-5 py-2.5 rounded-xl bg-coral text-white font-semibold hover:bg-coral-hover transition shadow-lg shadow-black/10 text-sm min-h-[44px] items-center justify-center" target="_blank" rel="noopener noreferrer">Add to monday.com →</a>
+        <a href="https://monday.com/marketplace" class="hidden md:inline-flex items-center px-5 py-2.5 rounded-xl bg-coral text-white font-semibold hover:bg-coral-hover transition shadow-lg shadow-black/10 text-sm min-h-[44px] items-center justify-center" target="_blank" rel="noopener noreferrer">Install free</a>
         <button type="button" class="md:hidden w-10 h-10 rounded-lg flex flex-col items-center justify-center gap-1.5 border border-border bg-bg-subtle text-dark hover:bg-primary-light/50 transition aria-expanded="false" aria-controls="nav-mobile" id="nav-toggle" aria-label="Open menu">
           <span class="nav-icon-line w-5 h-0.5 bg-current rounded-full transition"></span>
           <span class="nav-icon-line w-5 h-0.5 bg-current rounded-full transition"></span>
@@ -68,87 +67,52 @@
         <a href="pricing.html" class="text-dark font-medium border-b border-border">Pricing</a>
         <a href="support.html" class="text-dark font-medium border-b border-border">Support</a>
         <a href="privacy.html" class="text-dark font-medium border-b border-border">Privacy</a>
-        <a href="https://monday.com/marketplace" class="mt-3 inline-flex items-center justify-center px-5 py-3 rounded-xl bg-coral text-white font-semibold min-h-[48px] border-0" target="_blank" rel="noopener noreferrer">Add to monday.com →</a>
+        <a href="https://monday.com/marketplace" class="mt-3 inline-flex items-center justify-center px-5 py-3 rounded-xl bg-coral text-white font-semibold min-h-[48px] border-0" target="_blank" rel="noopener noreferrer">Install free</a>
       </div>
     </div>
   </header>
 
   <main id="main-content">
-  <!-- Hero (pt offsets fixed header); on mobile no giant min-height, content starts right away -->
-  <section class="hero-bg relative overflow-hidden flex items-start sm:items-center min-h-0 sm:min-h-[85vh] md:min-h-[88vh] pt-14 sm:pt-16">
-    <!-- Decorative blobs (logo colors) -->
-    <div class="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-primary/15 blur-3xl hero-float pointer-events-none" aria-hidden="true"></div>
-    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-yellow/10 blur-3xl hero-float-delay pointer-events-none" aria-hidden="true"></div>
-
-    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-20 md:py-28 w-full">
-      <div class="max-w-4xl">
-        <p class="hero-reveal inline-flex items-center gap-2 rounded-full bg-yellow-light text-dark font-semibold text-sm px-4 py-1.5 mb-6 badge-pulse border border-yellow/30">
-          <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-          Available in the monday.com marketplace
-        </p>
-        <h1 class="hero-reveal hero-reveal-1 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-dark leading-[1.1] tracking-tight mb-6">
-          Stop switching tabs.<br>
-          <span class="text-primary">Ship from your board.</span>
-        </h1>
-        <p class="hero-reveal hero-reveal-2 text-xl sm:text-2xl text-muted leading-relaxed mb-10 max-w-2xl">
-          Elevix Apps turns your monday.com boards into the only place you need. Automate updates, connect your tools, and keep the whole team aligned—without leaving the board.
-        </p>
-        <div class="hero-reveal hero-reveal-3 flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <a href="https://monday.com/marketplace" class="cta-glow inline-flex items-center justify-center w-full sm:w-auto min-h-[48px] px-8 py-4 rounded-xl bg-coral text-white font-bold text-lg hover:bg-coral-hover transition text-center" target="_blank" rel="noopener noreferrer">Add to monday.com — It's free to try</a>
-          <a href="docs/getting-started.html" class="inline-flex items-center justify-center w-full sm:w-auto min-h-[48px] px-8 py-4 rounded-xl border-2 border-dark/15 text-dark font-semibold hover:border-primary hover:text-primary hover:bg-primary-light/30 transition text-center">See how it works</a>
+  <!-- Hero: left copy, right product visual -->
+  <section class="hero-bg relative overflow-hidden pt-16 sm:pt-20 pb-16 sm:pb-20 md:pb-24">
+    <div class="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-primary/10 blur-3xl hero-float pointer-events-none" aria-hidden="true"></div>
+    <div class="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-yellow/5 blur-3xl hero-float-delay pointer-events-none" aria-hidden="true"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div>
+          <p class="hero-reveal inline-flex items-center gap-2 rounded-full bg-yellow-light text-dark font-semibold text-sm px-4 py-1.5 mb-6 border border-yellow/30">
+            <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            monday.com marketplace
+          </p>
+          <h1 class="hero-reveal hero-reveal-1 text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-6xl font-extrabold text-dark leading-[1.2] tracking-tight mb-7">
+            Create subitems across dozens of items in seconds—not hours.
+          </h1>
+          <p class="hero-reveal hero-reveal-2 text-lg sm:text-xl text-muted leading-[1.6] mb-10 max-w-xl">
+            For campaigns, onboarding checklists, and recurring workflows on monday.com. Clone or apply templates in bulk. Always preview before applying.
+          </p>
+          <div class="hero-reveal hero-reveal-3 flex flex-col sm:flex-row gap-4 sm:gap-5">
+            <a href="https://monday.com/marketplace" class="cta-glow inline-flex items-center justify-center w-full sm:w-auto min-h-[52px] px-8 py-4 rounded-xl bg-coral text-white font-bold text-base hover:bg-coral-hover transition text-center" target="_blank" rel="noopener noreferrer">Install from monday.com</a>
+            <a href="#how-it-works" class="inline-flex items-center justify-center w-full sm:w-auto min-h-[52px] px-8 py-4 rounded-xl border-2 border-dark/15 text-dark font-semibold hover:border-primary hover:text-primary hover:bg-primary-light/30 transition text-center">See how it works</a>
+          </div>
+          <p class="hero-reveal hero-reveal-4 mt-8 text-sm text-muted leading-relaxed">
+            Free plan available · No credit card required · Works on your existing boards · Preview before applying
+          </p>
         </div>
-        <p class="hero-reveal hero-reveal-4 mt-6 text-sm text-muted max-w-xl">
-          No credit card required · Install in under 2 minutes · Works with your existing boards
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Social proof -->
-  <section class="border-y border-border bg-white py-6 sm:py-8">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <p class="text-center text-sm font-medium text-muted mb-3 sm:mb-4">Built for teams that run on monday.com</p>
-      <div class="flex flex-wrap justify-center items-center gap-x-6 sm:gap-x-10 gap-y-1.5 text-muted text-sm sm:text-base">
-        <span class="font-semibold text-dark/80">One-click install</span>
-        <span class="text-border hidden sm:inline">·</span>
-        <span class="font-semibold text-dark/80">Native to Work OS</span>
-        <span class="text-border hidden sm:inline">·</span>
-        <span class="font-semibold text-dark/80">Trusted by teams worldwide</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- Problem → Solution -->
-  <section class="py-16 sm:py-24 md:py-32">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-        <div class="reveal-on-scroll">
-          <p class="text-primary font-bold text-sm uppercase tracking-widest mb-4">The problem</p>
-          <h2 class="text-3xl md:text-4xl font-extrabold text-dark leading-tight mb-6">Your board is powerful. Your workflow isn’t.</h2>
-          <p class="text-lg text-muted leading-relaxed mb-4">You’re still copying data between tabs, chasing updates in email, and re-entering the same info in three places. Your board could be your command center—but right now it’s just another tab.</p>
-          <p class="text-lg text-muted leading-relaxed">Elevix Apps fixes that.</p>
-        </div>
-        <div class="reveal-on-scroll delay-1 relative">
-          <div class="rounded-2xl border border-border bg-bg-subtle p-8 card-lift">
-            <div class="flex gap-4 mb-6">
-              <div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl">1</div>
-              <div>
-                <h3 class="font-bold text-dark text-lg">One place for everything</h3>
-                <p class="text-muted">Connect tools and automate updates so your board is always the single source of truth.</p>
-              </div>
+        <!-- Hero visual: replace with real app screenshot showing source item, target items, preview, result -->
+        <div class="reveal-on-scroll order-first lg:order-none mt-8 lg:mt-0">
+          <div class="rounded-2xl border border-border bg-white shadow-xl overflow-hidden">
+            <div class="bg-bg-subtle px-4 py-2.5 border-b border-border flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-white border border-border"></span>
+              <span class="w-3 h-3 rounded-full bg-white border border-border"></span>
+              <span class="w-3 h-3 rounded-full bg-white border border-border"></span>
+              <span class="text-xs text-muted ml-2">Subitems Multiplier</span>
             </div>
-            <div class="flex gap-4 mb-6">
-              <div class="w-12 h-12 rounded-xl bg-success flex items-center justify-center text-white font-bold text-xl">2</div>
-              <div>
-                <h3 class="font-bold text-dark text-lg">No more tab chaos</h3>
-                <p class="text-muted">Work inside monday.com. No context switching, no copy-paste, no “where did we put that?”</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-xl">3</div>
-              <div>
-                <h3 class="font-bold text-dark text-lg">Install in minutes</h3>
-                <p class="text-muted">Add from the marketplace, connect your board, and you’re live. No IT ticket required.</p>
+            <!-- T1 TODO: Replace with real product screenshot: app UI showing source item, target items, preview, and "Apply" / multiplied result -->
+            <div class="aspect-video bg-gradient-to-br from-primary-light/30 to-bg-subtle flex items-center justify-center p-8">
+              <div class="text-center text-muted text-sm max-w-xs">
+                <p class="font-semibold text-dark mb-1">Product visual</p>
+                <p>Source item → Target items → Preview → Apply</p>
+                <p class="mt-2 text-xs">Replace with app screenshot or GIF</p>
               </div>
             </div>
           </div>
@@ -157,57 +121,201 @@
     </div>
   </section>
 
-  <!-- See it in action -->
-  <section class="py-16 sm:py-24 md:py-32 bg-primary-light/50">
+  <!-- Example result: high-impact multiplication -->
+  <section class="border-y border-border bg-white py-8 sm:py-10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-10 sm:mb-14">
-        <p class="text-primary font-bold text-sm uppercase tracking-widest mb-3">See it in action</p>
-        <h2 class="text-3xl md:text-4xl font-extrabold text-dark mb-4">Your boards, doing the heavy lifting</h2>
-        <p class="text-lg text-muted max-w-2xl mx-auto">Familiar monday.com experience—with the power to automate and integrate right where you work.</p>
-      </div>
-      <div class="reveal-on-scroll rounded-2xl border border-border bg-white overflow-hidden shadow-2xl">
-        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=600&fit=crop" alt="Elevix Apps inside monday.com" class="w-full h-auto object-cover" width="1200" height="600" fetchpriority="high">
-        <div class="p-5 border-t border-border bg-white text-center text-sm font-medium text-muted">Elevix Apps · Native inside monday.com</div>
-      </div>
-      <div class="grid sm:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
-        <div class="reveal-on-scroll delay-1 rounded-2xl border border-border bg-white overflow-hidden card-lift">
-          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=340&fit=crop" alt="Reports and insights" class="w-full h-52 object-cover" width="600" height="340" loading="lazy">
-          <div class="p-5 font-bold text-dark">Insights and reports, right on the board</div>
+      <div class="rounded-2xl bg-primary-light/50 border border-primary/20 p-6 sm:p-8">
+        <p class="text-center text-sm font-semibold text-primary uppercase tracking-wider mb-4">Example</p>
+        <div class="flex flex-col items-center text-center">
+          <span class="font-bold text-dark text-lg mb-4">Campaign Launch</span>
+          <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-2">
+            <span class="text-xl sm:text-2xl font-bold text-dark">8 subitems</span>
+            <span class="text-2xl sm:text-4xl font-extrabold text-primary">×</span>
+            <span class="text-xl sm:text-2xl font-bold text-dark">10 items</span>
+          </div>
+          <div class="flex flex-wrap items-center justify-center gap-2">
+            <span class="text-2xl sm:text-4xl font-extrabold text-primary">=</span>
+            <span class="text-2xl sm:text-4xl font-extrabold text-primary">80 subitems created instantly</span>
+          </div>
         </div>
-        <div class="reveal-on-scroll delay-2 rounded-2xl border border-border bg-white overflow-hidden card-lift">
-          <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=340&fit=crop" alt="Team collaboration" class="w-full h-52 object-cover" width="600" height="340" loading="lazy">
-          <div class="p-5 font-bold text-dark">Collaborate without leaving the board</div>
+        <p class="text-center text-sm text-muted mt-5">No copy-paste. No manual setup. One action inside monday.com.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem -->
+  <section class="py-16 sm:py-20 md:py-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark leading-tight mb-5">Teams recreate the same subitems across campaigns and projects.</h2>
+      <p class="text-lg text-muted leading-relaxed">Campaigns, projects, and client items need the same task lists and checklists. Doing it manually is slow, error-prone, and doesn’t scale. Subitems Multiplier lets you clone or apply templates in bulk—with a preview before anything changes.</p>
+    </div>
+  </section>
+
+  <!-- How it works (moved up) -->
+  <section id="how-it-works" class="py-16 sm:py-20 md:py-24 bg-primary-light/40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark text-center mb-4">How it works</h2>
+      <p class="text-lg text-muted text-center max-w-2xl mx-auto mb-12">Three steps. No code. Inside monday.com.</p>
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-10">
+        <div class="reveal-on-scroll text-center">
+          <div class="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">1</div>
+          <h3 class="font-bold text-dark text-lg mb-2">Pick a source item</h3>
+          <p class="text-muted text-sm">Choose the item whose subitems you want to clone or save as a template.</p>
+        </div>
+        <div class="reveal-on-scroll delay-1 text-center">
+          <div class="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">2</div>
+          <h3 class="font-bold text-dark text-lg mb-2">Choose target items</h3>
+          <p class="text-muted text-sm">Select one or many items where the subitems will be created.</p>
+        </div>
+        <div class="reveal-on-scroll delay-2 text-center">
+          <div class="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">3</div>
+          <h3 class="font-bold text-dark text-lg mb-2">Preview, then apply</h3>
+          <p class="text-muted text-sm">See exactly what will be created. One click applies the change.</p>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="https://monday.com/marketplace" class="inline-flex items-center justify-center min-h-[48px] px-6 py-3 rounded-xl bg-coral text-white font-semibold hover:bg-coral-hover transition" target="_blank" rel="noopener noreferrer">Install free</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-16 sm:py-20 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark text-center mb-4">What you can do</h2>
+      <p class="text-lg text-muted text-center max-w-2xl mx-auto mb-12">Clone, template, and preview—all inside your board.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="reveal-on-scroll rounded-2xl border border-border bg-white p-8 card-lift">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-3">Clone subitems from one item to dozens instantly.</h3>
+          <p class="text-muted text-sm leading-relaxed">Select a source item and one or more targets. Clone all subitems in one action. No re-typing. No copy-paste between items.</p>
+        </div>
+        <div class="reveal-on-scroll delay-1 rounded-2xl border border-border bg-white p-8 card-lift">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-3">Save reusable subitem templates for recurring workflows.</h3>
+          <p class="text-muted text-sm leading-relaxed">Save subitem titles and column values as board-level templates. Apply the same checklist or task list to any item, anytime.</p>
+        </div>
+        <div class="reveal-on-scroll delay-2 rounded-2xl border border-border bg-white p-8 card-lift">
+          <div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-3">See exactly what will be created before applying.</h3>
+          <p class="text-muted text-sm leading-relaxed">See the full list of subitems that will be added. Apply only when you’re sure. No existing subitems are deleted or replaced.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Use cases -->
+  <section class="py-16 sm:py-20 md:py-24 bg-bg-subtle">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark text-center mb-4">Built for repeated subitem workflows</h2>
+      <p class="text-lg text-muted text-center max-w-2xl mx-auto mb-12">Campaigns, onboarding, content, and projects—same structure, zero manual repetition.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="reveal-on-scroll rounded-xl border border-border bg-white p-6">
+          <h3 class="font-bold text-dark mb-2">Marketing campaigns</h3>
+          <p class="text-sm text-muted leading-relaxed">Same campaign phases (brief, design, review, launch) across many campaigns. Clone or apply a template in one go.</p>
+        </div>
+        <div class="reveal-on-scroll delay-1 rounded-xl border border-border bg-white p-6">
+          <h3 class="font-bold text-dark mb-2">Client onboarding</h3>
+          <p class="text-sm text-muted leading-relaxed">Standard onboarding checklist for every new client. Apply the template to each client item without re-typing.</p>
+        </div>
+        <div class="reveal-on-scroll delay-2 rounded-xl border border-border bg-white p-6">
+          <h3 class="font-bold text-dark mb-2">Content production</h3>
+          <p class="text-sm text-muted leading-relaxed">Draft → edit → review → publish. Replicate the pipeline across dozens of content items instantly.</p>
+        </div>
+        <div class="reveal-on-scroll delay-3 rounded-xl border border-border bg-white p-6">
+          <h3 class="font-bold text-dark mb-2">Project task templates</h3>
+          <p class="text-sm text-muted leading-relaxed">Kickoff, execution, wrap-up. Apply the same phase-based task list to every project item.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="py-16 sm:py-20 md:py-24">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark text-center mb-12">Why teams use Subitems Multiplier</h2>
+      <div class="grid md:grid-cols-3 gap-8 lg:gap-10">
+        <div class="reveal-on-scroll text-center">
+          <div class="w-14 h-14 rounded-xl bg-primary-light flex items-center justify-center text-primary mx-auto mb-4">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">Speed</h3>
+          <p class="text-muted text-sm leading-relaxed">Turn bulk subitem setup from an hour into seconds. Spend time on the work that matters, not on repeated data entry.</p>
+        </div>
+        <div class="reveal-on-scroll delay-1 text-center">
+          <div class="w-14 h-14 rounded-xl bg-primary-light flex items-center justify-center text-primary mx-auto mb-4">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">Consistency</h3>
+          <p class="text-muted text-sm leading-relaxed">Same checklist or task list on every item. No missed steps, no typos, no drift when someone copies by hand.</p>
+        </div>
+        <div class="reveal-on-scroll delay-2 text-center">
+          <div class="w-14 h-14 rounded-xl bg-primary-light flex items-center justify-center text-primary mx-auto mb-4">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+          </div>
+          <h3 class="font-bold text-dark text-lg mb-2">Less manual work</h3>
+          <p class="text-muted text-sm leading-relaxed">Scale workflows without scaling headcount. Bulk creation and templates remove the bottleneck of repetitive setup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust section (replaces fake testimonial) -->
+  <section class="py-16 sm:py-20 md:py-24 bg-primary-light/40 border-y border-primary/10">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-2xl sm:text-3xl font-extrabold text-dark text-center mb-10">Built for monday.com teams</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+        <div class="flex flex-col items-center">
+          <span class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary mb-3"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></span>
+          <p class="font-semibold text-dark text-sm">Works on your existing boards</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary mb-3"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></span>
+          <p class="font-semibold text-dark text-sm">No credit card required</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary mb-3"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></span>
+          <p class="font-semibold text-dark text-sm">Preview before applying</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="w-10 h-10 rounded-lg bg-primary/15 flex items-center justify-center text-primary mb-3"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></span>
+          <p class="font-semibold text-dark text-sm">Existing subitems are never deleted or replaced</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Final CTA -->
-  <section class="py-16 sm:py-24 md:py-32">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="reveal-on-scroll text-3xl md:text-4xl font-extrabold text-dark mb-4">Ready to ship from your board?</h2>
-      <p class="reveal-on-scroll delay-1 text-lg text-muted mb-8">Add Elevix Apps from the monday.com marketplace. Free to try—no credit card required.</p>
-      <a href="https://monday.com/marketplace" class="reveal-on-scroll delay-2 cta-glow inline-flex items-center justify-center w-full sm:w-auto min-h-[48px] px-10 py-4 rounded-xl bg-coral text-white font-bold text-lg hover:bg-coral-hover transition" target="_blank" rel="noopener noreferrer">Add to monday.com →</a>
+  <section class="py-16 sm:py-20 md:py-24">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-dark mb-4">Install from the monday.com marketplace</h2>
+      <p class="text-lg text-muted mb-8">Free plan available. No credit card required. Works on your existing boards. Preview before you apply.</p>
+      <a href="https://monday.com/marketplace" class="cta-glow inline-flex items-center justify-center w-full sm:w-auto min-h-[52px] px-10 py-4 rounded-xl bg-coral text-white font-bold text-lg hover:bg-coral-hover transition" target="_blank" rel="noopener noreferrer">Install from monday.com</a>
     </div>
   </section>
   </main>
 
-  <!-- Footer -->
   <footer class="border-t border-border bg-dark text-white py-10 sm:py-12">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <a href="index.html" class="flex items-center gap-2 font-bold text-lg text-white hover:text-primary-light transition min-h-[44px] items-center justify-center md:justify-start">
-          <span class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white text-sm font-extrabold">E</span>
-          Elevix Apps
+          <span class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white text-sm font-extrabold">S</span>
+          Subitems Multiplier
         </a>
         <div class="flex flex-wrap justify-center gap-6 sm:gap-8 text-sm">
-          <a href="docs/getting-started.html" class="text-white/70 hover:text-white transition">Documentation</a>
+          <a href="docs/getting-started.html" class="text-white/70 hover:text-white transition">Docs</a>
           <a href="pricing.html" class="text-white/70 hover:text-white transition">Pricing</a>
           <a href="support.html" class="text-white/70 hover:text-white transition">Support</a>
           <a href="privacy.html" class="text-white/70 hover:text-white transition">Privacy</a>
         </div>
       </div>
-      <p class="mt-8 text-center text-sm text-white/50">© Elevix Apps. Available on monday.com.</p>
+      <p class="mt-8 text-center text-sm text-white/50">© Subitems Multiplier. Available on monday.com.</p>
     </div>
   </footer>
 
