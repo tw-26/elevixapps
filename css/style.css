@@ -232,3 +232,8 @@ article p, .text-muted {
     transform: none;
   }
 }
+
+/* Footer: better contrast on dark background */
+.site-footer {
+  border-top-color: rgba(255, 255, 255, 0.15);
+}
