@@ -20,7 +20,11 @@
             'primary-light': '#e6f9f0',
             coral: '#ff3d57',
             'coral-hover': '#e6354d',
+            yellow: '#ffcc00',
+            'yellow-light': '#fff8e1',
             dark: '#181b34',
+            success: '#00ca72',
+            'success-light': '#e6f9f0',
             muted: '#676879',
             border: '#e6e9ef',
             'bg-subtle': '#f6f7fb',
@@ -68,33 +72,21 @@
     </div>
   </header>
 
-  <main id="main-content" class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 sm:pt-16 pb-10 sm:pb-16 md:pb-24">
-    <h1 class="text-3xl md:text-4xl font-extrabold text-dark mb-4">Support</h1>
-    <p class="text-lg text-muted mb-12">We’re here to help. Use the options below to get in touch or find answers.</p>
-
-    <div class="space-y-6">
-      <a href="#" id="support-form-link" class="block p-4 sm:p-6 rounded-2xl border border-border bg-white hover:border-primary/30 hover:shadow-lg transition group min-h-[44px]">
-        <div class="flex items-start gap-4 flex-wrap sm:flex-nowrap">
-          <div class="w-12 h-12 rounded-xl bg-primary-light flex items-center justify-center text-primary font-bold text-xl shrink-0 group-hover:bg-primary group-hover:text-white transition">?</div>
-          <div>
-            <h2 class="font-bold text-lg text-dark mb-1">Contact us</h2>
-            <p class="text-muted">Submit a request or question and we’ll get back to you. You’ll be redirected to our support form.</p>
-            <p class="mt-2 text-primary font-medium text-sm">Open support form →</p>
-          </div>
-        </div>
-      </a>
-
-      <div class="p-6 rounded-2xl border border-border bg-bg-subtle">
-        <h2 class="font-bold text-lg text-dark mb-2">Documentation</h2>
-        <p class="text-muted mb-4">Step-by-step guides for installing and using Subitems Multiplier on monday.com.</p>
-        <a href="docs/getting-started.html" class="inline-flex items-center text-primary font-medium hover:underline">View docs →</a>
-      </div>
+  <main id="main-content" class="pt-16 sm:pt-20 pb-16 sm:pb-20 md:pb-24">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 w-full min-h-[60vh]">
+      <iframe
+        data-tally-embed
+        src="https://tally.so/embed/b5OO22?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1&formEventsForwarding=1"
+        width="100%"
+        height="400"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Support form"></iframe>
     </div>
-
-    <p class="mt-12 text-sm text-muted">For monday.com platform or account issues, please contact <a href="https://support.monday.com" class="text-primary hover:underline" target="_blank" rel="noopener noreferrer">monday.com Support</a>.</p>
   </main>
 
-  <footer class="border-t border-border bg-dark text-white py-10 sm:py-12 mt-12 sm:mt-16">
+  <footer class="border-t border-border bg-dark text-white py-10 sm:py-12 mt-16">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row justify-between items-center gap-6">
         <a href="index.html" class="flex items-center gap-2 font-bold text-lg text-white hover:text-primary-light transition min-h-[44px] items-center justify-center md:justify-start">
@@ -112,12 +104,9 @@
     </div>
   </footer>
 
+  <script async src="https://tally.so/widgets/embed.js"></script>
   <script>
     (function() {
-      var TALLY_FORM_URL = 'https://tally.so';
-      var supportLink = document.getElementById('support-form-link');
-      if (supportLink) supportLink.href = TALLY_FORM_URL;
-
       var toggle = document.getElementById('nav-toggle');
       var panel = document.getElementById('nav-mobile');
       if (toggle && panel) {
