@@ -1,13 +1,13 @@
-/* Elevix Apps – monday.com logo colors (red/coral, yellow, green) */
+/* Elevix Apps – icon palette (salmon, peach, teal, blue) */
 :root {
-  --monday-green: #00ca72;
-  --monday-green-hover: #00a85c;
-  --monday-green-light: #e6f9f0;
-  --monday-coral: #ff3d57;
-  --monday-coral-hover: #e6354d;
-  --monday-coral-light: #ffebee;
-  --monday-yellow: #ffcc00;
-  --monday-yellow-light: #fff8e1;
+  --monday-green: #4ecdc4;
+  --monday-green-hover: #3dbab1;
+  --monday-green-light: #e9fbf9;
+  --monday-coral: #ff6b6b;
+  --monday-coral-hover: #f55d5d;
+  --monday-coral-light: #fff0ef;
+  --monday-yellow: #ffa36c;
+  --monday-yellow-light: #fff3ea;
   --monday-dark: #181b34;
   --color-text: #181b34;
   --color-text-muted: #676879;
@@ -32,7 +32,7 @@ body {
 /* Tap highlight for touch devices */
 @media (hover: none) {
   a, button {
-    -webkit-tap-highlight-color: rgba(0, 202, 114, 0.15);
+    -webkit-tap-highlight-color: rgba(78, 205, 196, 0.15);
   }
 }
 
