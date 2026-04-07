@@ -8,7 +8,6 @@ Static marketing site for the Elevix Apps monday.com app. Built with HTML, CSS, 
 |------|-------------|
 | `/` or `index.html` | Landing page |
 | `/docs/` or `/docs/getting-started.html` | Documentation |
-| `/pricing` or `pricing.html` | Pricing |
 | `/support` or `support.html` | Support (redirect to Tally when configured) |
 | `/privacy` or `privacy.html` | Privacy policy |
 | `/monday-app-association.json` | monday.com app association file |
